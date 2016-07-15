@@ -1,9 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 /**
  *
  * @author yassine
@@ -83,7 +77,6 @@ public class BezierCurve {
         double tni; // the same.. (1 - t)^i 
 
         // We check some known and specific values of t and i..
-
         if (t == 0.0 && i == 0) {
             ti = 1.0;
         } else {
